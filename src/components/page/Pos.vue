@@ -213,6 +213,7 @@ export default {
 
 
 <style scoped>
+    body{ cursor: pointer;}
     .orderList{
         text-align: center;
     }
