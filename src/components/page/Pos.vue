@@ -114,9 +114,8 @@ export default {
     }
   },
     created(){
-      axios.get('http://jspang.com/DemoApi/oftenGoods.php')
+      axios.get('http://p66jwkndh.bkt.clouddn.com/oftenGoods.json')
       .then(response=>{
-         console.log(response);
          this.oftenGoods=response.data;
       })
       .catch(error=>{
@@ -125,7 +124,7 @@ export default {
       })
 
     //读取分类商品列表
-      axios.get('http://jspang.com/DemoApi/typeGoods.php')
+      axios.get('http://p66jwkndh.bkt.clouddn.com/typegoods.json')
       .then(response=>{
          console.log(response);
          //this.oftenGoods=response.data;
