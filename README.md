@@ -1,5 +1,7 @@
-# pos
+# pos收银
 
+## 预览链接 
+http://p5kgsxox8.bkt.clouddn.com/pos.mp4
 > A Vue.js project
 
 ## Build Setup
